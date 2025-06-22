@@ -25,7 +25,6 @@ const connectDB = async () => {
         // Send a ping to confirm a successful connection
         console.log("Pinged your deployment. You successfully connected to MongoDB!");
     } catch (error) {
-
         console.error('MongoDB connection failed:', error);
         console.log(error.message);
     }
